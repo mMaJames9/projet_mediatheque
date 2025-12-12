@@ -1,4 +1,3 @@
-# ui.py
 """
 Interface utilisateur (console) :
 

@@ -1,16 +1,16 @@
 code,titre,auteur,note,categories
-L01,Le Petit Prince,Antoine de Saint-Exupï¿½,4.8,classique;jeunesse
-L02,Lï¿½ï¿½ï¿½,Albert Camus,4.5,classique;philosophie
-L03,La Nuit,ýlie Wiesel ,4.7,tï¿½ï¿½ï¿½moignage;
-L04,Germinal,ýmile Zola,4.6,classique;drame
+L01,Le Petit Prince,Antoine de Saint-Exupéry,4.8,classique;jeunesse
+L02,L’Étranger,Albert Camus,4.5,classique;philosophie
+L03,La Nuit,Élie Wiesel ,4.7,témoignage; mémoire
+L04,Germinal,Émile Zola,4.6,classique;drame
 L05,Le Comte de Monte-Cristo,Alexandre Dumas,4.9,aventure;classique
-L06,La Condition humaine,Andrï¿½ï¿½ï¿½,4.4,philosophie;drame
+L06,La Condition humaine,André Malraux,4.4,philosophie;drame
 L07,Madame Bovary,Gustave Flaubert,4.3,classique;drame
 L08,Le Rouge et le Noir,Stendhal,4.5,classique;roman
-L09,Le Pï¿½ï¿½ï¿½r,Honorï¿½ï¿½ï¿½ d,4.6,classique;drame
-L10,Voyage au bout de la nuit,Louis-Ferdinand Cï¿½ï¿,4.2,roman;critique
-L11,Lï¿½ï¿½ï¿½ï¿½ï¿½ï,Jules Verne,4.7,aventure;science-fiction
-L12,Les Fleurs du mal,Charles Baudelaire,4.8,poï¿½ï¿½ï¿½sie;c
+L09,Le Père Goriot,Honoré de Balzac,4.6,classique;drame
+L10,Voyage au bout de la nuit,Louis-Ferdinand Céline,4.2,roman;critique
+L11,L’Île mystérieuse,Jules Verne,4.7,aventure;science-fiction
+L12,Les Fleurs du mal,Charles Baudelaire,4.8,poésie;classique
 L13,Notre-Dame de Paris,Victor Hugo,4.9,classique;historique
 L14,La Chartreuse de Parme,Stendhal,4.4,classique;roman
 L15,Le Horla,Guy de Maupassant,4.3,fantastique;classique

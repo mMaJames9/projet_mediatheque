@@ -92,9 +92,9 @@ mediatheque/
 
 ### Encodage du CSV
 
-Le programme lit `livres.csv` en **UTF-8 avec gestion souple des erreurs** :
+Le programme lit `livres.csv` en **Windows-1252 avec gestion souple des erreurs** :
 
-* `encoding="utf-8-sig", errors="replace"`
+* `encoding="cp1252", errors="replace"`
 * Si certains caractères sont mal encodés, ils sont remplacés automatiquement pour éviter un crash (par exemple pour certains caractères accentués).
 
 ---
@@ -257,7 +257,7 @@ Le projet fait un effort particulier sur la robustesse :
 
 * **Encodage** :
 
-  * Lecture du CSV en `utf-8-sig` avec `errors="replace"` pour éviter les exceptions sur des caractères mal encodés.
+  * Lecture du CSV en `cp1252` avec `errors="replace"` pour éviter les exceptions sur des caractères mal encodés.
   * Les caractères problématiques sont remplacés, pas bloquants.
 
 * **Lignes mal formées** dans l’historique :

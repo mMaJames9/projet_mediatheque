@@ -24,7 +24,7 @@ def charger_catalogue(path=CATALOGUE_CSV):
     Gestion d'erreurs :
     - si le fichier n'existe pas, on retourne un catalogue vide et on affiche un message d'erreur
     - si la note est invalide, on met 0.0 par défaut
-    - si des caractères ne sont pas décodables en UTF-8, ils sont remplacés pour éviter que le programme ne plante
+    - si des caractères ne sont pas décodables en Windows-1252 (cp1252), ils sont remplacés pour éviter que le programme ne plante
     """
 
     catalogue = {}
@@ -35,8 +35,8 @@ def charger_catalogue(path=CATALOGUE_CSV):
 
     try:
         # errors='replace' pour remplacer les caractères illisibles au lieu de générer une erreur
-        # On utilise utf-8-sig pour gérer correctement les fichiers avec BOM si ils sont présents
-        with open(path, "r", encoding="utf-8-sig", errors="replace", newline="") as fichier:
+        # On utilise cp1252 pour gérer correctement les fichiers avec BOM si ils sont présents
+        with open(path, "r", encoding="cp1252", errors="replace", newline="") as fichier:
             # Utilisation de DictReader pour lire les lignes du fichier CSV en dictionnaires
             lecteur = csv.DictReader(fichier)
 
